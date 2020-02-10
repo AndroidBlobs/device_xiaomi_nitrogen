@@ -471,7 +471,6 @@ service ppd /system/vendor/bin/mm-pp-dpps
     socket pps stream 0660 system system
     disabled
 
-service touch_count_dump /vendor/bin/touch_count_dump
 service displayfeature /system/bin/displayfeature
     class late_start
     user root
